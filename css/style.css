@@ -24,8 +24,17 @@ hr{
 nav{
     background-color: #fbfbfb;
     padding: 10px;
+    display: flex;
     justify-content: center;
     gap: 25px;
     margin-bottom: 20px;
     flex-wrap: wrap;
+}
+nav a{
+    color: #6ea6eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    text-decoration: underline;
 }
